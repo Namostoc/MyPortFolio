@@ -1,0 +1,144 @@
+.self-image{
+    width: 450px;
+    height: 450px;
+    border: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    animation: fadeIn 1s 2s backwards;
+}
+
+
+.text-container{
+    animation: fadeIn 1s 1.2s backwards;
+}
+
+.text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  max-height: 90%;
+  display: block;
+}
+
+h1 {
+  font-size: 100px;
+  background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s linear infinite;
+}
+
+h2{
+    font-size: 30px;
+    color: #fff;
+}
+.btn-container{
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+}
+.flat-button{
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.flat-button:hover{
+    background: #ffd700;
+    color: black;
+}
+ul {
+    list-style: none;
+}
+
+.social-contact {
+    width: 280px;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    left: 8%;
+    bottom: 10%;
+    border-radius: 10px;
+    list-style: none;
+    animation: fadeIn 1s 2s backwards;
+}
+
+.fb{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    color: #5890FF;
+}
+
+.ig{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    color: rgb(228, 64, 95);
+}
+
+.line{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    color: rgb(0, 185, 0);
+}
+
+.fb:hover{
+    color: #5890FF;
+}
+
+.ig:hover{
+    color: rgb(228, 64, 95)
+}
+
+.line:hover{
+    color: rgb(0, 185, 0)
+}
+
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+@keyframes gradient {
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
+}
