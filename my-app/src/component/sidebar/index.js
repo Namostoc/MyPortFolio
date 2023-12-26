@@ -1,8 +1,7 @@
 import "./index.css";
-import {useEffect, useRef, useState} from 'react'
-import Logo from "../../assets/photo/logo.png";
 // import { NavLink } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 // import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = () => {
@@ -12,10 +11,13 @@ const Sidebar = () => {
       <nav className="navShift">
         <ul>
           <li>
-            <a href="/" >Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="/about">About</a>
+          </li>
+          <li>
+            <a href='/skills'>Skills</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

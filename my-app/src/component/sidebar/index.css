@@ -42,6 +42,10 @@ nav ul li{
     position: relative;
 }
 
+a{
+    color: blue;
+}
+
 nav ul li:after{
     content: '';
     width: 0;
