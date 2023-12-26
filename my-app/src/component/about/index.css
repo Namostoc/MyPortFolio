@@ -1,16 +1,63 @@
-p {
-    color: #fff;
-    font-size: 45px;
-    font-weight: bold;
-    position: absolute;
-    bottom: -20px;
+.about-me {
+  display: absolute;
+  left: 50%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  padding: 0 10px;
+  background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s 0.5s backwards,gradient 3s linear infinite;
 }
 
-.top-about {
-    border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    z-index: 3;
-    display: block;
+
+.text-zone-about{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-align:left;
+    right: 10%;
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    color: #fff;
+    font-weight: 900;
+    max-width: 800px;
 }
+
+.qa-list li{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    width: 700px;
+}
+
+.dev-list li{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    width: 700px;
+}
+
+.self2-img{
+    width: 32%;
+    position: absolute;
+    right: 5%;
+    bottom: 9%;
+    border-radius: 40px;
+    animation: fadeIn 1s 1.2s backwards;
+}
+
+.intro ,.education ,.qa-exp ,.dev-exp, .goal{
+    animation: fadeIn 1s 1.2s backwards;
+}
+
+
