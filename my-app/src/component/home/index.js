@@ -1,17 +1,17 @@
 import "./index.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLine } from "@fortawesome/free-brands-svg-icons";
-import SelfPic from "../../assets/photo/self1.jpg";
+import SelfPic from "../../assets/photo/self3.jpg";
 
 const Home = () => {
   return (
     <>
-      <img alt="self-image" src={SelfPic} className="self-image"></img>
+      <img alt="self-img" src={SelfPic} className="self-image"></img>
       <div className="text-container">
         <div className="text-zone">
           <h1>
-            Hi , <br /> Namo Sutthipreecha
+            Hi , I'm<br /> Namo Sutthipreecha
           </h1>
           <br />
           <h2>Back-end Developer / Font-end Developer</h2>
