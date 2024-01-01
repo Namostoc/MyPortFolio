@@ -7,6 +7,7 @@
     border-radius: 30px;
     top: 25%;
     left: 20%;
+    animation: fadeIn 1s 1.2s backwards;
 }
 
 .contact-me{
@@ -18,27 +19,20 @@
     letter-spacing: 2px;
 }
 
-.telephone, .email, .line-id{
+.telephone, .email, .line-id, .facebook-container, .linkedin-container{
     margin: 10px;
 }
 
-.mobile-icon, .email-icon, .line-icon{
+.mobile-icon, .email-icon, .line-icon, .facebook-icon, .linkedin-icon{
     font-size: 35px;
     margin-top: 20px;
 }
 
-.mobile-number, .email-address, .line-contact-id{
+.mobile-number, .email-address, .line-contact-id, .facebook-link, .linkedin-link{
     text-decoration: none;
     font-size: 23px;
     display: inline;
     font-weight: 800;
 }
-
-/* .email-address {
-    text-decoration: none;
-    font-size: 23px;
-    display: inline;
-    font-weight: 800;
-} */
 
 

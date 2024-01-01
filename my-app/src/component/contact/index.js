@@ -1,5 +1,5 @@
 import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
-import {faLine} from '@fortawesome/free-brands-svg-icons'
+import {faFacebook, faLine, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.css";
 
@@ -19,6 +19,14 @@ const Contact = () => {
         <div className="line-id">
             <FontAwesomeIcon icon={faLine} className='line-icon'></FontAwesomeIcon>
             <p className="line-contact-id"> : namostpc</p>
+        </div>
+        <div className="facebook-container">
+            <FontAwesomeIcon icon={faFacebook} className='facebook-icon'></FontAwesomeIcon>
+            <a className="facebook-link" href="https://www.facebook.com/namo.bodyfreeze"> : https://www.facebook.com/namo.bodyfreeze</a>
+        </div>
+        <div className="linkedin-container">
+            <FontAwesomeIcon icon={faLinkedin} className='linkedin-icon'></FontAwesomeIcon>
+            <a className="linkedin-link" href="https://www.linkedin.com/in/namo-sutthipreecha-8728322a7/?trk=public-profile-join-page"> : https://www.linkedin.com/in/namo-sutthipreecha-8728322a7/?trk=public-profile-join-page</a>
         </div>
       </div>
     </div>
