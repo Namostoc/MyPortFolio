@@ -1,7 +1,7 @@
 import "./index.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLine } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faLine, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import SelfPic from "../../assets/photo/self3.jpg";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
       <img alt="self-img" src={SelfPic} className="self-image"></img>
       <div className="text-container">
         <div className="text-zone">
-          <h1>
+          <h1 className="my-name">
             Hi , I'm<br /> Namo Sutthipreecha
           </h1>
           <br />
@@ -48,6 +48,14 @@ const Home = () => {
               className="line"
             >
               <FontAwesomeIcon icon={faLine} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/namo-sutthipreecha-8728322a7/?trk=public-profile-join-page"
+              className="linked-in"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
         </ul>

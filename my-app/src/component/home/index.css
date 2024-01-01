@@ -24,7 +24,7 @@
   display: block;
 }
 
-h1 {
+.my-name {
   font-size: 100px;
   background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
   background-size: 200% auto;
@@ -67,7 +67,7 @@ ul {
 }
 
 .social-contact {
-    width: 280px;
+    width: 400px;
     align-items: center;
     display: inline-block;
     position: absolute;
@@ -109,6 +109,17 @@ ul {
     position: relative;
     font-size: 30px;
     color: rgb(0, 185, 0);
+}
+
+.linked-in {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    color: #5890FF;
 }
 
 .fb:hover{
