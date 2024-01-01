@@ -1,0 +1,116 @@
+.my-skills{
+    padding: 3rem 0 1.5rem 0;
+    align-items: center;
+    display:block;
+    text-align: center;
+    font-size: 78px;
+    letter-spacing: 2px;
+    animation: fadeIn 1s 1.2s backwards;
+}
+
+
+.skill-description{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 2rem 0 1.5rem 0;
+    animation: fadeIn 1s 1.4s backwards;
+}
+.row{
+    margin: 1rem 0;
+    animation: fadeIn 1s 1.2s backwards;
+}
+.item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+
+.item .item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+    color: #fff;
+    left: 5px;
+}
+
+.item-text span:last-child{
+    position: absolute;
+}
+
+.item-text .w-60{
+    margin-left: 58%;
+}
+
+.item-text .w-70{
+    margin-left: 68%;
+}
+
+.item-text .w-80{
+    margin-left: 78%;
+}
+
+.item-text .w-90{
+    margin-left: 88%;
+}
+
+.progress {
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 16px;
+    width: 100%;
+    background-color: rgb(67, 63, 63);
+    overflow: hidden;
+}
+
+.progress-bar{
+    background-color: greenyellow;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.progress {
+    background-color: #4b4a46;
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.progress-bar.w-60{
+    width: 60%;
+}
+
+.progress-bar.w-70{
+    width: 70%;
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-90{
+    width: 90%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+
+.htmlImg, .javascriptImg, .ReactImg, .postgresqlImg{
+    width: 20px;
+    height: 20px;
+}
+.cssImg, .typescriptImg{
+    width: 23px;
+    height: 23px;
+}
