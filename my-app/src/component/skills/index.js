@@ -43,6 +43,16 @@ const Skill = () => {
             <div className="item-text">
                 <img className="javascriptImg" alt="Javascript-logo" src={javascriptLogo}/>
                 <span>JavaScript</span>
+                <span className="w-70">70%</span>
+            </div>
+            <div className="progress">
+                <div className="progress-bar w-70"></div>
+            </div>
+        </div>
+        <div className="item">
+            <div className="item-text">
+                <img className="typescriptImg" alt="typescript-logo" src={typescriptLogo}/>
+                <span>TypeScript</span>
                 <span className="w-80">80%</span>
             </div>
             <div className="progress">
@@ -51,22 +61,12 @@ const Skill = () => {
         </div>
         <div className="item">
             <div className="item-text">
-                <img className="typescriptImg" alt="typescript-logo" src={typescriptLogo}/>
-                <span>TypeScript</span>
-                <span className="w-90">90%</span>
-            </div>
-            <div className="progress">
-                <div className="progress-bar w-90"></div>
-            </div>
-        </div>
-        <div className="item">
-            <div className="item-text">
                 <img className="ReactImg" alt="react-logo" src={reactLogo}/>
                 <span>React.js</span>
-                <span className="w-70">70%</span>
+                <span className="w-60">60%</span>
             </div>
             <div className="progress">
-                <div className="progress-bar w-70"></div>
+                <div className="progress-bar w-60"></div>
             </div>
         </div>
         <div className="item">
